@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+    <!--xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+    version="4.0"-->
+    <!--包com.schoolWeb的开始-->
+    <!--<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddColumnServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.AddColumnServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddColumnServlet</servlet-name>
+        <url-pattern>/addColumnServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddNewServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.AddNewServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddNewServlet</servlet-name>
+        <url-pattern>/addNewServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SelectColumnServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.SelectColumnServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SelectColumnServlet</servlet-name>
+        <url-pattern>/selectColumnServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateColumnServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.UpdateColumnServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateColumnServlet</servlet-name>
+        <url-pattern>/updateColumnServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteColumnServlet</servlet-name>
+        <servlet-class>com.schoolWeb.servlet.DeleteColumnServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteColumnServlet</servlet-name>
+        <url-pattern>/deleteColumnServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <!--包com.schoolWeb的结束-->
+
+
+    <!--包com.com.MarkSource的开始-->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>OutServlet</servlet-name>
+        <url-pattern>/OutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OutServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.OutServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AddSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.AddSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddSourceServlet</servlet-name>
+        <url-pattern>/addSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SelectSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.SelectSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SelectSourceServlet</servlet-name>
+        <url-pattern>/selectSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Sel_LocalSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Sel_LocalSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Sel_LocalSourceServlet</servlet-name>
+        <url-pattern>/sel_LocalSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Del_netSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Del_netSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Del_netSourceServlet</servlet-name>
+        <url-pattern>/del_netSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Del_localSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Del_localSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Del_localSourceServlet</servlet-name>
+        <url-pattern>/del_localSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Update_netSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Update_netSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Update_netSourceServlet</servlet-name>
+        <url-pattern>/update_netSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Update_localSourceServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Update_localSourceServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Update_localSourceServlet</servlet-name>
+        <url-pattern>/update_localSourceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Update_pwdServlet</servlet-name>
+        <servlet-class>com.MarkSource.servlet.Update_pwdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Update_pwdServlet</servlet-name>
+        <url-pattern>/Update_pwdServlet</url-pattern>
+    </servlet-mapping>
+    <!--包com.com.MarkSource的结束-->
+</web-app>
+
+

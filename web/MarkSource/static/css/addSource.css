@@ -1,0 +1,92 @@
+.content{
+    margin-top: 60px;
+    float: right;
+    width: 91%;
+    height: 88%;
+    /*background: linear-gradient(45deg, #ece567, #38e211);*/
+    opacity: .8;
+}
+
+.rg_left {
+    border: 1px;
+    float: left;
+    margin: 15px;
+    font-weight: 700;
+}
+
+.td_left {
+    width: 100px;
+    height: 45px;
+    text-align: right;
+    font-family: 微软雅黑 serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #575552;
+}
+
+/*.td_right{
+    color: wheat;
+}*/
+.td_right input {
+    box-shadow: white 0 0 10px;
+    background-color: transparent;
+    border: 2px solid #f3efef;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.td_right textarea {
+    box-shadow: white 0 0 10px;
+    background-color: transparent;
+    border: 0px solid white;
+    /*overflow:scroll;*/
+    /*overflow-x:hidden;*/
+    width: 250px;
+}
+
+.form1 {
+    margin: 6% auto;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+
+#username, #password, #phone, #email {
+    width: 251px;
+    height: 32px;
+    border: 1px solid #A6A6A6;
+    /*设置边框圆角*/
+    border-radius: 5px;
+    padding-left: 15px;
+}
+span{
+    color: red;
+}
+#submit, #reset {
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
+    background: #e7b828; /*默认的颜色*/
+    border-radius: 5px;
+    /*margin-left: 188px;*/
+    color: wheat;
+}
+
+.submit1 input {
+    margin-left: 100px;
+}
+
+.submit1 #reset {
+    margin-left: 125px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+}
